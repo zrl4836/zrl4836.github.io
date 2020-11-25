@@ -6,18 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>fahai的博客</title>
+  <title>CS31n学习笔记&lt;一&gt;计算机视觉发展史 | fahai的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="重庆邮电大学19届研究僧一枚，找工作中......">
-<meta property="og:type" content="website">
-<meta property="og:title" content="fahai的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="1、前言　　CS231n是斯坦福大学李飞飞团队2015年冬季学期开始开设的一门基于神经网络或者说卷积神经网络的计算机视觉课程，全称是CS231n: Convolutional Neural Networks for Visual Recognition，如今完全成为了一门明星课程，也是每一个CVer入门的必学课程之一。目前，已经有2015冬季版，2016冬季版，2017春季版，2018春季版（视频">
+<meta name="keywords" content="笔记,cs231n,课程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CS31n学习笔记&lt;一&gt;计算机视觉发展史">
+<meta property="og:url" content="http://yoursite.com/2018/08/19/CS31n学习笔记一----计算机视觉发展史/index.html">
 <meta property="og:site_name" content="fahai的博客">
-<meta property="og:description" content="重庆邮电大学19届研究僧一枚，找工作中......">
+<meta property="og:description" content="1、前言　　CS231n是斯坦福大学李飞飞团队2015年冬季学期开始开设的一门基于神经网络或者说卷积神经网络的计算机视觉课程，全称是CS231n: Convolutional Neural Networks for Visual Recognition，如今完全成为了一门明星课程，也是每一个CVer入门的必学课程之一。目前，已经有2015冬季版，2016冬季版，2017春季版，2018春季版（视频">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2018/08/19/CS31n学习笔记一----计算机视觉发展史/cv1.jpg">
+<meta property="og:updated_time" content="2018-10-14T03:04:07.466Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="fahai的博客">
-<meta name="twitter:description" content="重庆邮电大学19届研究僧一枚，找工作中......">
+<meta name="twitter:title" content="CS31n学习笔记&lt;一&gt;计算机视觉发展史">
+<meta name="twitter:description" content="1、前言　　CS231n是斯坦福大学李飞飞团队2015年冬季学期开始开设的一门基于神经网络或者说卷积神经网络的计算机视觉课程，全称是CS231n: Convolutional Neural Networks for Visual Recognition，如今完全成为了一门明星课程，也是每一个CVer入门的必学课程之一。目前，已经有2015冬季版，2016冬季版，2017春季版，2018春季版（视频">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/19/CS31n学习笔记一----计算机视觉发展史/cv1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="fahai的博客" type="application/atom+xml">
   
@@ -169,676 +173,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-2018开放学术数据挖掘大赛总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-CS31n学习笔记一----计算机视觉发展史" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/01/01/2018开放学术数据挖掘大赛总结/">2018开放学术数据挖掘大赛总结</a>
-    </h1>
-  
-
-        
-        <a href="/2019/01/01/2018开放学术数据挖掘大赛总结/" class="archive-article-date">
-  	<time datetime="2019-01-01T06:03:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-01</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">1.2k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">4分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="一、赛题理解"><a href="#一、赛题理解" class="headerlink" title="一、赛题理解"></a>一、赛题理解</h3><p>　　本次竞赛[<a href="https://www.biendata.com/competition/scholar2018/" target="_blank" rel="noopener">首页</a>]针对学术领域的论文同名作者消歧问题，根据提供的AMiner中大量有挑战性的作者同名消歧数据集，表现在每个姓名关联的论文和学者数量有所增加。本次竞赛的任务是识别出哪些同名作者的论文属于同一个人。<br>　　常见的解决方案：<br>
-        
-          <a class="article-more-a" href="/2019/01/01/2018开放学术数据挖掘大赛总结/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">比赛</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">总结</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/01/01/2018开放学术数据挖掘大赛总结/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-CNN经典模型总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/09/04/CNN经典模型总结/">CNN经典模型总结</a>
-    </h1>
-  
-
-        
-        <a href="/2018/09/04/CNN经典模型总结/" class="archive-article-date">
-  	<time datetime="2018-09-03T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-04</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">5.6k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">26分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>　　CNN模型在图像处理上取得的突破，推动了CV的进一步发展，同时也掀起了人工神经网络（也称深度学习）的第三次浪潮，前两次分别为1958年的感知机模型与1986年反向传播算法。尤其是ImageNet使得CNN模型不断推陈出新，造就了一个个经典的CNN结构，其在ImageNet数据集上预训练的模型，成为了在小数据集上finetune的首选。本文简单梳理常见的CNN结构，旨在对所学的知识进行回顾，以便以后复习查看。<br>
-        
-          <a class="article-more-a" href="/2018/09/04/CNN经典模型总结/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">总结</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/09/04/CNN经典模型总结/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-BAT机器学习面试题库（200-300）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/09/01/BAT机器学习面试题库（200-300）/">BAT机器学习面试题库(201-300)</a>
-    </h1>
-  
-
-        
-        <a href="/2018/09/01/BAT机器学习面试题库（200-300）/" class="archive-article-date">
-  	<time datetime="2018-08-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-01</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">6.9k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">25分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　为了求职笔试面试，需恶补基础、算法原理，于是仔细研读了七月在线发布的BAT机器学习面试1000题系列，也添加了一些自己的理解或来自其他博客的答案，以下内容均来自<a href="https://blog.csdn.net/v_JULY_v/article/details/78121924" target="_blank" rel="noopener">BAT机器学习面试1000题系列</a>。该文为本人的阅读笔记，主要是为了记忆和自查。<br>
-        
-          <a class="article-more-a" href="/2018/09/01/BAT机器学习面试题库（200-300）/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/09/01/BAT机器学习面试题库（200-300）/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-CS31n学习笔记三----损失函数与最优化" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/22/CS31n学习笔记三----损失函数与最优化/">CS31n学习笔记&lt;三&gt;损失函数与最优化</a>
-    </h1>
-  
-
-        
-        <a href="/2018/08/22/CS31n学习笔记三----损失函数与最优化/" class="archive-article-date">
-  	<time datetime="2018-08-21T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-22</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">1.7k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">6分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>　　<strong>损失函数（Loss function）</strong>或者<strong>代价函数（Cost function）</strong>是用来估量你模型的预测值 $f(x)$ 与真实值 Y 的不一致程度，也就是当前W取值下的不理想程度。它是一个<strong>非负实值函数</strong>，通常用 $L(Y,f(x))$ 来表示。损失函数越小，模型的鲁棒性就越好。损失函数(一次预测好坏)是<strong>经验风险函数</strong>（平均意义下模型好坏）的核心部分，也是<strong>结构风险函数</strong>的重要组成部分。<br>　　一些资源：<a href="http://www.cnblogs.com/wangxiu/p/5668659.html" target="_blank" rel="noopener">CS231n 2016 通关 第三章-SVM与Softmax</a><br>
-        
-          <a class="article-more-a" href="/2018/08/22/CS31n学习笔记三----损失函数与最优化/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">cs231n</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">课程</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/22/CS31n学习笔记三----损失函数与最优化/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-BAT机器学习面试题库（100-200）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/20/BAT机器学习面试题库（100-200）/">BAT机器学习面试题库(101-200)</a>
-    </h1>
-  
-
-        
-        <a href="/2018/08/20/BAT机器学习面试题库（100-200）/" class="archive-article-date">
-  	<time datetime="2018-08-19T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-20</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">24.1k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">87分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　为了求职笔试面试，需恶补基础、算法原理，于是仔细研读了七月在线发布的BAT机器学习面试1000题系列，也添加了一些自己的理解或来自其他博客的答案，以下内容均来自<a href="https://blog.csdn.net/v_JULY_v/article/details/78121924" target="_blank" rel="noopener">BAT机器学习面试1000题系列</a>。该文为本人的阅读笔记，主要是为了记忆和自查。<br>
-        
-          <a class="article-more-a" href="/2018/08/20/BAT机器学习面试题库（100-200）/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/20/BAT机器学习面试题库（100-200）/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-CS31n学习笔记二----k-NN与线性分类器" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/20/CS31n学习笔记二----k-NN与线性分类器/">CS31n学习笔记&lt;二&gt;k-NN与线性分类器</a>
-    </h1>
-  
-
-        
-        <a href="/2018/08/20/CS31n学习笔记二----k-NN与线性分类器/" class="archive-article-date">
-  	<time datetime="2018-08-19T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-20</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">1.7k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">6分</span>
-      </span>
-    </span>
-</div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>　　<strong>任务</strong>：图像分类问题，就是对于输入的图像数据，根据已有的分类标签集合，选出合适的标签对齐进行分类标记，属于<strong>监督学习</strong>的范畴。虽然该问题对人来说非常简单，但却是计算机视觉领域的核心问题，计算机视觉领域中很多看似不同的问题（比如物体检测和分割），都可以被归结为图像分类问题。<br>　　<strong>难点</strong>：对于计算机来说，一张图像是由[Hight,Width,Channel]组成的张量(Tensor)，张量中的元素为像素值大小，大小在0-255之间的整型，其中0表示全黑，255表示全白。因此图像分类的目标就是：把这些上百万的数字变成一个简单的标签(label)。可想而知，计算机视觉算法所应对的困难与挑战有多大。<br>
-        
-          <a class="article-more-a" href="/2018/08/20/CS31n学习笔记二----k-NN与线性分类器/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">cs231n</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">课程</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/20/CS31n学习笔记二----k-NN与线性分类器/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-CS31n学习笔记一----计算机视觉发展史" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/19/CS31n学习笔记一----计算机视觉发展史/">CS31n学习笔记&lt;一&gt;计算机视觉发展史</a>
+    <h1 class="article-title" itemprop="name">
+      CS31n学习笔记&lt;一&gt;计算机视觉发展史
     </h1>
   
 
@@ -870,6 +212,30 @@
 		
 		
 		<!-- 目录内容 -->
+		
+			<p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+			<span class="btn-bg"></span>
+			<span class="btn-text">文章导航</span>
+			</p>
+			<div id="toc-article" class="toc-article">
+				<span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+				<strong class="toc-title">文章目录</strong>
+				<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1、前言"><span class="toc-number">1.</span> <span class="toc-text">1、前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、计算机视觉简史"><span class="toc-number">2.</span> <span class="toc-text">2、计算机视觉简史</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-计算机视觉的诞生"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 计算机视觉的诞生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-近现代发展"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 近现代发展</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-深度学习的时代"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 深度学习的时代</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3、课程主题"><span class="toc-number">3.</span> <span class="toc-text">3、课程主题</span></a></li></ol>
+		   </div>
+		   <script type="text/javascript">
+			function showToc(){
+				var toc_article = document.getElementById("toc-article");
+				var show_toc_btn = document.getElementById("show-toc-btn");
+				toc_article.setAttribute("style","display:block");
+				show_toc_btn.setAttribute("style","display:none");
+				};
+			function showBtn(){
+				var toc_article = document.getElementById("toc-article");
+				var show_toc_btn = document.getElementById("show-toc-btn");
+				toc_article.setAttribute("style","display:none");
+				show_toc_btn.setAttribute("style","display:block");
+				};
+		   </script>
 		     
 		<!-- 目录内容结束 -->
 	
@@ -877,12 +243,40 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>　　CS231n是斯坦福大学<a href="http://vision.stanford.edu/index.html" target="_blank" rel="noopener">李飞飞团队</a>2015年冬季学期开始开设的一门基于神经网络或者说卷积神经网络的计算机视觉课程，全称是<a href="http://vision.stanford.edu/teaching/cs231n/index.html" target="_blank" rel="noopener">CS231n: Convolutional Neural Networks for Visual Recognition</a>，如今完全成为了一门明星课程，也是每一个CVer入门的必学课程之一。目前，已经有2015冬季版，2016冬季版，2017春季版，<a href="http://cs231n.stanford.edu/syllabus.html" target="_blank" rel="noopener">2018春季版</a>（视频未公布），每学期的视频更新都会引起一波充电热潮。<br>　　互联网和传感器的发展，特别是视觉传感器，如：手机摄像头，数码相机，视频监控，行车记录仪等等，引发了视觉信息的大爆炸。不得不说，我们完全进入到了一个视觉时代，一个图片、视频信息爆炸的时代。但是这些信息也是最难以被利用的信息，我们称其为“互联网中的暗物质”。就像银河系中85%的质量属于暗物质和暗能量，难以被检测和利用。YouTube每60秒就会接受150小时以上的视频上传，我们根本不可能靠人眼给如此大量的数据进行标注、分类。那么如何对这些数据进行标记、分类、索引等工作，进而利用这些数据来做广告、检索或者其他操作。唯一的希望就是利用计算机去帮我们完成这项工作，运用计算机视觉技术对图片进行标签、分类，对视频进行理解。如何更好地利用这些海量数据，如何应对“暗物质”的挑战，如何让计算机更好地理解这个世界，这就是计算机视觉要解决的问题。<br>　　计算机视觉是一门跨学科的课程，所以，我们面对的问题，建模方式也必将是跨学科的，像工程学、物理学、生物学、心理学、计算机科学和数学都有着密切关系。<br>　　一些资源：<a href="http://cs231n.github.io/classification/" target="_blank" rel="noopener">http://cs231n.github.io/classification/</a><br>
-        
-          <a class="article-more-a" href="/2018/08/19/CS31n学习笔记一----计算机视觉发展史/#more">more >></a>
-        
+        <h2 id="1、前言"><a href="#1、前言" class="headerlink" title="1、前言"></a>1、前言</h2><p>　　CS231n是斯坦福大学<a href="http://vision.stanford.edu/index.html" target="_blank" rel="noopener">李飞飞团队</a>2015年冬季学期开始开设的一门基于神经网络或者说卷积神经网络的计算机视觉课程，全称是<a href="http://vision.stanford.edu/teaching/cs231n/index.html" target="_blank" rel="noopener">CS231n: Convolutional Neural Networks for Visual Recognition</a>，如今完全成为了一门明星课程，也是每一个CVer入门的必学课程之一。目前，已经有2015冬季版，2016冬季版，2017春季版，<a href="http://cs231n.stanford.edu/syllabus.html" target="_blank" rel="noopener">2018春季版</a>（视频未公布），每学期的视频更新都会引起一波充电热潮。<br>　　互联网和传感器的发展，特别是视觉传感器，如：手机摄像头，数码相机，视频监控，行车记录仪等等，引发了视觉信息的大爆炸。不得不说，我们完全进入到了一个视觉时代，一个图片、视频信息爆炸的时代。但是这些信息也是最难以被利用的信息，我们称其为“互联网中的暗物质”。就像银河系中85%的质量属于暗物质和暗能量，难以被检测和利用。YouTube每60秒就会接受150小时以上的视频上传，我们根本不可能靠人眼给如此大量的数据进行标注、分类。那么如何对这些数据进行标记、分类、索引等工作，进而利用这些数据来做广告、检索或者其他操作。唯一的希望就是利用计算机去帮我们完成这项工作，运用计算机视觉技术对图片进行标签、分类，对视频进行理解。如何更好地利用这些海量数据，如何应对“暗物质”的挑战，如何让计算机更好地理解这个世界，这就是计算机视觉要解决的问题。<br>　　计算机视觉是一门跨学科的课程，所以，我们面对的问题，建模方式也必将是跨学科的，像工程学、物理学、生物学、心理学、计算机科学和数学都有着密切关系。<br>　　一些资源：<a href="http://cs231n.github.io/classification/" target="_blank" rel="noopener">http://cs231n.github.io/classification/</a><br><a id="more"></a>　<br><img src="cv1.jpg" alt="cv1"></p>
+<h2 id="2、计算机视觉简史"><a href="#2、计算机视觉简史" class="headerlink" title="2、计算机视觉简史"></a>2、计算机视觉简史</h2><h3 id="2-1-计算机视觉的诞生"><a href="#2-1-计算机视觉的诞生" class="headerlink" title="2.1 计算机视觉的诞生"></a>2.1 计算机视觉的诞生</h3><p>　　<strong>第一只眼的诞生</strong>：在五亿四千三百万年前，单细胞生物就已在地球上出没，当时的动物物种只有三个动物门。而在短短的五百万年后(这段时期仅占生物演化史的千分之一)，这三个动物门的物种突然演化成三十八个动物门，几乎现今所有动物的祖先，全在一瞬间蜂涌而出。这个物种快速暴增的现象发生在寒武纪初期，称为<a href="https://baike.baidu.com/item/%E5%AF%92%E6%AD%A6%E7%BA%AA%E7%94%9F%E5%91%BD%E5%A4%A7%E7%88%86%E5%8F%91/785574?fr=aladdin#4" target="_blank" rel="noopener"><strong>寒武纪大爆发</strong></a>，其原因至今仍是未解之谜。其中，<strong>Andrew Parker</strong>的“光开关理论”最具说服力，他研究发现，当时由于一个偶然的原因，浅海和大气中的化学物质发生了变化，使得浅海和大气的透明度大大增加。随着大量的光线进入海洋，于是动物开始进化出接收光的器官——眼睛。约5.4３亿年前出现的<a href="https://baike.baidu.com/item/%E4%B8%89%E5%8F%B6%E8%99%AB/110354?fr=aladdin" target="_blank" rel="noopener"><strong>三叶虫</strong></a>正是第一批演化出真正眼睛的动物，刚进化的眼睛非常非常的简陋就像针孔相机，甚至没有晶体状，只能接收一点光线和感知环境信息。该理论认为正是眼睛的进化，引发了生命体之间的进化竞赛，使得那些具备最佳视觉的生物才最有可能生存下来。眼睛的出现，可能是地球上寒武纪<strong>生命大爆发</strong>的主要原因。<br>　　<strong>达芬奇的相机</strong>：16世纪文艺复兴时期，达芬奇发明了“照相暗盒”（camera obscura），开始用来获取真实世界中的图像信息，这种早期的照相设备并不能产生出照片，只是运用小孔成像原理，方便艺术家描绘物体的比例。但这便是现代视觉工程技术的开端了，人们开始复制我们所看到的信息，不过这并没有涉及到试图去理解所看到的信息。从此之后，视觉技术取得一定的进步，如：电影技术、柯达商用相机产品、摄像机产品等等。<br>　　<strong>大脑视觉处理</strong>:1959年，Huber&amp;Wiesel研究生物的大脑是如何处理视觉信息的。他们发现，大脑并不是对整体目标进行处理，而是从简单的形状（例如，边缘）开始处理视觉信息。在视觉处理的第一步，基础视觉区的神经元按一列一列组织起来，每一列神经元只“喜欢”某一种特定的形状,某种线条的简单组合。1981年两位科学家凭借这个贡献获得了诺贝尔奖，这是视觉领域一项极其重要的成就。<br>　　<strong>方块世界</strong>：现代计算机视觉领域的先驱是Lary Roberts在1963年的论文，名为“方块世界”Block World，也是计算机视觉第一篇博士论文。视觉信息处理是基于边缘好形状，是边缘决定了形状。<br>　　<strong>计算机视觉的诞生</strong>：计算机视觉诞生于1966年夏季，MIT成立了人工智能实验室，其中一名教授开始着手研究计算机视觉问题。至此，计算机视觉成为AI领域增长最快的一个领域，计算机视觉顶级大会CVPR和ICCV每年都有来及自全世界的进行这方面研究的研究人员。</p>
+<h3 id="2-2-近现代发展"><a href="#2-2-近现代发展" class="headerlink" title="2.2 近现代发展"></a>2.2 近现代发展</h3><p>　　<strong>VISION</strong>：David Marr写了一本非常有影响力的书籍VISION，并给了我们第二个非常重要的观点（第一个为Huber&amp;Wiesel认为的视觉处理是从一些简单的形状开始，而不是整体目标）：视觉是分层的。复杂的视觉处理可以基于这两个观点进行，即从简单形状开始，并建立一个分层模型。David Marr认为图像结构可以分为多层，第一层为简单的边缘结构（同Huber&amp;Wiesel）他叫其为<strong>原始草图</strong>，接下来他称之为<strong>2.5D草图</strong>，将表层、深度信息或者场景的不连续性拼凑在一起。这里将2D图像信息调整为包含真实世界的3D信息。第三层为3D真实世界的模型。这是一个高度抽象的架构，并不能指引建立相应数学模型，但这是一个非常重要的、宏观的概念思想。基于David Marr的思考方式，开始涌现出一波视觉识别算法，即重建3D模型，以便于进一步识别。其中，<strong>Generalized Cylinder</strong>模型（1979年）认为世界由简单形状组合，通过不同角度观察而来。<strong>Pictorial Structure</strong>模型（1973年），其认为物体有简单的部分组成，如人脸由眼镜鼻子和嘴组成，各部分之间通过“弹簧”连接，允许之间出现一定形变。<br>　　<strong>Normalized Cut</strong>：（Shi &amp; Malik，1997年）第一次使用现实世界照片解决彩色图像分割问题。感知分组：视觉领域最为重要的问题。<br>　　<strong>VJ人脸检测器</strong>：第一个转化为智能人脸检测的产品，应用于富士康相机2006年的数码相机产品中。基于haar特征+adboost分类器。也是第一项在计算机上可以实时运行的计算机视觉方面的研究成果。虽然这并不是这个时期的唯一成果，但这件成果反应了计算机视觉领域研究聚焦的一次变迁，不再是David Marr的重建3D模型再识别，而是直接识别“物体是什么”。该成果将研究的焦点聚焦到识别领域，这个趋势，将计算机视觉带回了人工智能领域。<br>　　<strong>Feature</strong>：<br>　　a）<a href="https://blog.csdn.net/lhanchao/article/details/52345845" target="_blank" rel="noopener">SIFT</a>（David Lowe，1999年）：尺度不变特征转换(Scale-invariant feature transform)，步骤：尺度空间极点检测—关键点精确定位—关键点的方向确定—特征向量的生成<br>　　b）<a href="https://blog.csdn.net/hong__fang/article/details/50557090" target="_blank" rel="noopener">SPM</a>（Lazebnik, Schmid &amp; Ponce, 2006年）：空间金字塔匹配（Spatial Pyramid Matching)，<strong>Spatial</strong>：将图像分成若干块(sub-regions)，分别统计每一子块的特征，最后将所有块的特征拼接起来，形成完整的特征。<strong>Pyramid</strong>：在分块的细节上，采用了一种多尺度的分块方法，即分块的粒度越大越细(increasingly fine)，呈现出一种层次金字塔的结构。<strong>Matching</strong>：匹配<br>　　c）<a href="https://www.cnblogs.com/wyuzl/p/6792216.html" target="_blank" rel="noopener">HOG</a>（Dalal &amp; Triggs, 2005年）：梯度方向直方图(Histogram of Oriented Gradient)，步骤：全局图像归一化—计算图像梯度—统计局部图像梯度信息—归一化—生成特征描述向量，<br>　　d）<a href="https://blog.csdn.net/qq_14845119/article/details/52625426" target="_blank" rel="noopener">DPM</a>（Felzenswalb, McAllester, Ramanan,2009年）：可变形的组件模型（Deformable Part Model），8<em>8分辨率的根滤波器（Root filter）+ 4</em>4分辨率的组件滤波器（Part filter）。</p>
+<h3 id="2-3-深度学习的时代"><a href="#2-3-深度学习的时代" class="headerlink" title="2.3 深度学习的时代"></a>2.3 深度学习的时代</h3><p>　　<strong>数据</strong>：<br>　　ａ）MNIST(Modified National Institute of Standards and Technology, Yann LeCun 1998年),70,000张扫描的手写数字字体照片（每张为0-9中的一个数字）。<br>　　ｂ）Pascal VOC(PASCAL Visual Object Challenge,Everingham et al. 2006-2012年),包含20类的目标检测数据集，10000级别的照片数量。<br>　　ｃ）ImageNet(Deng, Dong, Socher, Li, Li, &amp; Fei-Fei, 2009年)，包含2万分类，<strong>千万级别</strong>（5000万）的识别检测数据集。从2010年开始，每年举行图像识别比赛：1,000 类目标，1,431,167张图像，被称为计算机视觉领域的奥铃匹克竞赛。2012年卷积神经网络（CNN）以巨大优势取得冠军，深度学习再次掀起研究热潮，成为深度学习革命的开端。<br>　　<strong>模型</strong>：<br>　　ａ）LeNet:(Yann LeCun 1998年)，结构：conv+pooling+conv+pooling+conv+FC+FC，激活函数为sigmoid，用于MNIST手写字体识别。<br>　　ｂ）AlexNet:(Krizhevsky et al. 2012年)，结构：conv1+pooling+conv2+pooling+conv3+conv4+conv5+fc6+fc7+fc8，激活函数Relu，运用多个GPU训练。<br>　　ｃ）ZFNet：(Matthew D. Zeiler et al. 2013年)，结构：AlexNet一些参数的改动，对CNN提取特征进行可视化。<br>　　ｄ）GoogLeNet：(Szegedy et al. 2014年)，结构：inception结构。<br>　　ｅ）VGG：(Simonyan 2014年)，结构：（VGG16）<strong>conv1+conv2+pooling</strong>+conv3+conv4+pooling+<strong>conv5+conv6+conv7+pooling</strong>+conv8+conv9。<br>+conv10+pooling+<strong>conv11+conv12+conv13+pooling</strong>+FC14+FC15+FC16。<br>　　ｆ）ResNet：(Kaiming He et al. 2015年)，结构：residual block。<br>　　ｇ）DenseNet：(Huang et al. 2017年)，结构：ResNet的密集链接。<br>　　<strong>硬件</strong>：<br>　　摩尔定律，NVIDIA GPU计算能力。</p>
+<h2 id="3、课程主题"><a href="#3、课程主题" class="headerlink" title="3、课程主题"></a>3、课程主题</h2><p>　　CS231n关注视觉识别问题—图像分类(image classification)，以及大量相关问题，如：目标检测(object detection), 图像描述(image captioning)…。<br>　　计算机视觉解决的问题远不止识别问题，还有一大堆亟待解决的问题，如：密集标记、感知分组、3D场景识别，动作理解等等。计算机视觉的终极目的：<strong>理解</strong>，让计算机像人一样理解这个世界，并让世界变得更美好。</p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/weixin.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -910,244 +304,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/19/CS31n学习笔记一----计算机视觉发展史/">展开全文 >></a>
-        </p>
-      
 
       
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
         
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-Leetcode刷题（1-100）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/08/01/Leetcode刷题（1-100）/">LeetCode刷题(1-100)</a>
-    </h1>
-  
-
-        
-        <a href="/2018/08/01/Leetcode刷题（1-100）/" class="archive-article-date">
-  	<time datetime="2018-07-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-01</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">1.8k字</span>
-      </span>
+      </div>
     </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">8分</span>
-      </span>
-    </span>
+  </div>
 </div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　<a href="https://leetcode.com/" target="_blank" rel="noopener">LeetCode</a>是一个准备面试非常有用的网站，是每个程序员求职面试必刷的题库之一，中文版本网站<a href="https://leetcode-cn.com/" target="_blank" rel="noopener">领扣</a>。其中题目按照难易程度分为易，中，难三等，同时也按照专题进行了分类。本博客记录本人的刷题过程，参考了很多大神的优质实现，权当笔记，供自己以后复习之用。<br>
-        
-          <a class="article-more-a" href="/2018/08/01/Leetcode刷题（1-100）/#more">more >></a>
-        
-      
 
-      
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/08/19/CS31n学习笔记一----计算机视觉发展史/" alt="微信分享二维码">
     </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">刷题</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/08/01/Leetcode刷题（1-100）/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-BAT机器学习面试题库（1-100）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/07/20/BAT机器学习面试题库（1-100）/">BAT机器学习面试题库(1-100)</a>
-    </h1>
-  
-
-        
-        <a href="/2018/07/20/BAT机器学习面试题库（1-100）/" class="archive-article-date">
-  	<time datetime="2018-07-19T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-20</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">37.7k字</span>
-      </span>
-    </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">136分</span>
-      </span>
-    </span>
 </div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　为了求职笔试面试，需恶补基础、算法原理，于是仔细研读了七月在线发布的BAT机器学习面试1000题系列，也添加了一些自己的理解或来自其他博客的答案，以下内容均来自<a href="https://blog.csdn.net/v_JULY_v/article/details/78121924" target="_blank" rel="noopener">BAT机器学习面试1000题系列</a>。该文为本人的阅读笔记，主要是为了记忆和自查。
-　　</p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><pre><code>July我又回来了。
 
-之前本博客整理过数千道微软等公司的面试题，侧重数据结构、算法、海量数据处理，详见：微软面试100题系列，今17年，近期和团队整理BAT机器学习面试1000题系列，侧重机器学习、深度学习。我们将通过这个系列索引绝大部分机器学习和深度学习的笔试面试题、知识点，它将更是一个足够庞大的机器学习和深度学习面试库/知识库，通俗成体系且循序渐进。
-
-此外，有四点得强调下：
-</code></pre><p>　　虽然本系列主要是机器学习、深度学习相关的考题，其他类型的题不多，但不代表应聘机器学习或深度学习的岗位时，公司或面试官就只问这两项，虽说是做数据或AI相关，但基本的语言（比如Python）、编码coding能力（对于开发，编码coding能力怎么强调都不过分，比如最简单的手写快速排序、手写二分查找）、数据结构、算法、计算机体系结构、操作系统、概率统计等等也必须掌握。对于数据结构和算法，一者 重点推荐前面说的微软面试100题系列（后来这个系列整理成了新书《编程之法：面试和算法心得》），二者 多刷leetcode，看1000道题不如实际动手刷100道。<br>　　本系列会尽量让考察同一个部分（比如同是模型/算法相关的）、同一个方向（比如同是属于最优化的算法）的题整理到一块，为的是让大家做到举一反三、构建完整知识体系，在准备笔试面试的过程中，通过懂一题懂一片。<br>　　本系列每一道题的答案都会确保逻辑清晰、通俗易懂（当你学习某个知识点感觉学不懂时，十有八九不是你不够聪明，十有八九是你所看的资料不够通俗、不够易懂），如有更好意见，欢迎在评论下共同探讨。<br>　　关于如何学习机器学习，最推荐机器学习集训营系列。从Python基础、数据分析、爬虫，到数据可视化、spark大数据，最后实战机器学习、深度学习等一应俱全。<br>    另，本系列会长久更新，直到上千道、甚至数千道题，欢迎各位于评论下留言分享你在自己笔试面试中遇到的题，或你在网上看到或收藏的题，共同分享帮助全球更多人，thanks。</p>
-<h2 id="BAT机器学习面试1000题系列"><a href="#BAT机器学习面试1000题系列" class="headerlink" title="BAT机器学习面试1000题系列"></a><strong>BAT机器学习面试1000题系列</strong></h2>
-        
-          <a class="article-more-a" href="/2018/07/20/BAT机器学习面试题库（1-100）/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面试</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/07/20/BAT机器学习面试题库（1-100）/">展开全文 >></a>
-        </p>
-      
-
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2018/08/20/CS31n学习笔记二----k-NN与线性分类器/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          CS31n学习笔记&lt;二&gt;k-NN与线性分类器
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/08/01/Leetcode刷题（1-100）/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">LeetCode刷题(1-100)</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -1162,128 +396,57 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1、前言"><span class="toc-number">1.</span> <span class="toc-text">1、前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、计算机视觉简史"><span class="toc-number">2.</span> <span class="toc-text">2、计算机视觉简史</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-计算机视觉的诞生"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 计算机视觉的诞生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-近现代发展"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 近现代发展</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-深度学习的时代"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 深度学习的时代</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3、课程主题"><span class="toc-number">3.</span> <span class="toc-text">3、课程主题</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
 
 
 
-
-
   
-    <article id="post-2018搜狐内容识别算法大赛总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/06/20/2018搜狐内容识别算法大赛总结/">2018搜狐内容识别算法大赛总结</a>
-    </h1>
-  
+  <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zNjc2NC8xMzI5OQ==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
 
-        
-        <a href="/2018/06/20/2018搜狐内容识别算法大赛总结/" class="archive-article-date">
-  	<time datetime="2018-06-19T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-06-20</time>
-</a>
-        
-		
-		
-			<div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">2.3k字</span>
-      </span>
-    </span>
+       if (typeof LivereTower === 'function') { return; }
 
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">8分</span>
-      </span>
-    </span>
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
 </div>
-		
-		
-		<!-- 目录内容 -->
-		     
-		<!-- 目录内容结束 -->
-	
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="一-前言"><a href="#一-前言" class="headerlink" title="一. 前言"></a>一. 前言</h2><p>　　由于参加了搜狐的第一届算法大赛，所以对第二届的竞赛还是比较关注和期待的。第二届是关于新闻内容（文本和图片）识别：是否为营销文章（0，非营销；1，部分营销；2，完全营销）。营销大部分根据文本判定，少部分根据图片判别。具体可见<a href="https://biendata.com/competition/sohu2018/" target="_blank" rel="noopener">官网</a>。该方案只考虑了文本的识别，最终名次：<strong>第七名</strong>。<br>
-        
-          <a class="article-more-a" href="/2018/06/20/2018搜狐内容识别算法大赛总结/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">比赛</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">总结</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/06/20/2018搜狐内容识别算法大赛总结/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
+<!-- City版安装代码已完成 -->
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
   
+  
+  
+
+  
+
+  
+
+  
+
+
 
 
           </div>
@@ -1310,8 +473,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
