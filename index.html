@@ -53,15 +53,15 @@
                         </ul>
                     </nav>
                     <nav class="header-smart-menu">
-                        <a q-on="click: openSlider(e, 'innerArchive')" href="">所有文章</a>
-                        <a q-on="click: openSlider(e, 'friends')" href="">友链</a>
+                        <a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+                        <a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
                         <a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
                     </nav>
                     <nav class="header-nav" style="display:block;">
                         <div class="social">
                             <a class="github" target="_blank" href="https://github.com/zrl4836" title="github"><i
                                     class="icon-github"></i></a>
-                            <a class="weibo" target="_blank" href="https://github.com/zrl4836" title="weibo"><i
+                            <a class="weibo" target="_blank" href="https://github.com/zrl4836"  title="weibo"><i
                                     class="icon-weibo"></i></a>
                             <a class="rss" target="_blank" href="https://github.com/zrl4836" title="rss"><i class="icon-rss"></i></a>
                             <a class="mail" target="_blank" href="https://github.com/zrl4836" title="mail"><i
@@ -97,18 +97,19 @@
                                 class="icon icon-quo-right"></i></p>
                         <nav class="header-nav">
                             <div class="social">
-                                <a class="github" target="_blank" href="https://github.com/zrl4836" title="github"><i
+
+                                <a class="github" target="_blank" href="https://github.com/fahaihappy" title="github"><i
                                         class="icon-github"></i></a>
 
-                                <a class="weibo" target="_blank" href="https://github.com/zrl4836" title="weibo"><i
+                                <a class="weibo" target="_blank" href="http://weibo.com/fahaihappy" title="weibo"><i
                                         class="icon-weibo"></i></a>
 
-                                <a class="rss" target="_blank" href="https://github.com/zrl4836" title="rss"><i class="icon-rss"></i></a>
+                                <a class="rss" target="_blank" href="/atom.xml" title="rss"><i class="icon-rss"></i></a>
 
-                                <a class="mail" target="_blank" href="https://github.com/zrl4836" title="mail"><i
+                                <a class="mail" target="_blank" href="mailto:861768935@qq.com" title="mail"><i
                                         class="icon-mail"></i></a>
 
-                                <a class="weixin" target="_blank" href="https://github.com/zrl4836" title="weixin"><i
+                                <a class="weixin" target="_blank" href="/assets/img/weixin.png" title="weixin"><i
                                         class="icon-weixin"></i></a>
                             </div>
                         </nav>
@@ -206,9 +207,11 @@ MathJax.Hub.Queue(function() {
         <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
             <div class="tools-nav header-menu">
                 <ul style="width: 70%">
+                    <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a
+                            href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
 
                     <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a
-                            href="" q-class="active:friends">友链</a></li>
+                            href="javascript:void(0)" q-class="active:friends">友链</a></li>
 
                     <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a
                             href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
@@ -275,8 +278,8 @@ MathJax.Hub.Queue(function() {
     pages: false
     posts:
       title: true
-      date: true
-      path: true
+      date: false
+      path: false
       text: false
       raw: false
       content: false
@@ -308,13 +311,9 @@ MathJax.Hub.Queue(function() {
 
 
                 <section class="tools-section tools-section-friends" q-show="friends">
-
                     <ul class="search-ul">
                     </ul>
-
                 </section>
-
-
 
                 <section class="tools-section tools-section-me" q-show="aboutme">
 
