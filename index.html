@@ -53,8 +53,8 @@
                         </ul>
                     </nav>
                     <nav class="header-smart-menu">
-                        <a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-                        <a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+                        <a q-on="click: openSlider(e, 'innerArchive')" href="">所有文章</a>
+                        <a q-on="click: openSlider(e, 'friends')" href="">友链</a>
                         <a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
                     </nav>
                     <nav class="header-nav" style="display:block;">
@@ -213,7 +213,7 @@ MathJax.Hub.Queue(function() {
                             href="" q-class="active:friends">友链</a></li>
 
                     <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a
-                            href="" q-class="active:aboutme">关于我</a></li>
+                            href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
                 </ul>
             </div>
             <div class="tools-wrap">
@@ -276,9 +276,9 @@ MathJax.Hub.Queue(function() {
     meta: false
     pages: false
     posts:
-      title: false
-      date: false
-      path: false
+      title: true
+      date: true
+      path: true
       text: false
       raw: false
       content: false
